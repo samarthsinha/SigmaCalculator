@@ -13,7 +13,7 @@ import java.util.Stack;
  *         <p/>
  *         Limitation : No parenthesis parsing implemented
  *         - Power(^) got the same precedence as that of multiply(*) and Division(/)
- *         If you give expression as '2*3^3' the result that you will get is '6^3 = 216' and not '2*9 = 18'<Br/>
+ *         If you give expression as '2*3^3' the result that you will get is '6^3 = 216' and not '2*27 = 54'<Br/>
  */
 public class ExpressionSolver {
     String expression;
